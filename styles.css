@@ -78,10 +78,9 @@ body {
   width: 180px;
   height: auto;
   color: var(--accent-color);
-  opacity: 0.15;
   align-self: start;
   margin-top: 8rem;
-  filter: blur(1px);
+  filter: drop-shadow(0 0 15px var(--accent-color));
 }
 
 /* Quote container */
@@ -140,9 +139,8 @@ body {
   text-transform: uppercase;
 }
 
-/* Refresh button - more elegant */
 .refresh-btn {
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 2;
   justify-self: start;
   display: inline-flex;
