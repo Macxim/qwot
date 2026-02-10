@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qwot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Ambient particles canvas -->
+  <canvas id="particles"></canvas>
+
+  <!-- Static dark overlay -->
+  <div class="dark-overlay"></div>
+
+  <!-- Time display -->
+  <div class="time-display">
+    <span id="time">00:00</span>
+  </div>
+
+  <!-- Main content with asymmetric layout -->
+  <div class="content-wrapper">
+    <!-- Decorative quote mark SVG -->
+    <svg class="quote-mark" viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M0 100V61.5385C0 44.6154 3.33333 30.7692 10 20C16.6667 9.23077 27.3333 2.05128 42 0L48 10.2564C40 13.8462 33.6667 18.9744 29 25.641C24.3333 32.3077 22 40 22 48.7179V52.8205H52V100H0ZM68 100V61.5385C68 44.6154 71.3333 30.7692 78 20C84.6667 9.23077 95.3333 2.05128 110 0L116 10.2564C108 13.8462 101.667 18.9744 97 25.641C92.3333 32.3077 90 40 90 48.7179V52.8205H120V100H68Z"
+        fill="currentColor" />
+    </svg>
+
+    <!-- Quote content -->
+    <div class="quote-container">
+      <h1 class="quote-text" id="quote">Loading your inspiration...</h1>
+      <div class="author-container">
+        <div class="accent-line"></div>
+        <p class="quote-author" id="author">Qwot</p>
+      </div>
+    </div>
+
+    <!-- Refresh button -->
+    <button class="refresh-btn" id="refreshBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round">
+        <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2" />
+      </svg>
+    </button>
+  </div>
+
+  <script src="newtab.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Qwot",
+  "version": "1.0.0",
+  "description": "Minimalist new tab with motivational quotes and beautiful images",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.unsplash.com/*"
+  ]
+}
