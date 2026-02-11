@@ -1,3 +1,6 @@
+<img width="1781" height="925" alt="qwot html" src="https://github.com/user-attachments/assets/0e89d91a-b334-4d0a-a987-738bbd706783" />
+
+
 # Qwot
 
 A minimalist "New Tab" Chrome extension that provides a moment of focus and inspiration with curated motivational quotes and a beautiful, dynamic background.
